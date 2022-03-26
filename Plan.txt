@@ -30,3 +30,13 @@ Skills
 
 card ---> Software Skills ( Inside card)
 card  -> Design 
+
+
+Timeline Design 
+
+Education      Experience 
+
+line - date
+card - Title 
+         Institute 
+         Details - Unfolder

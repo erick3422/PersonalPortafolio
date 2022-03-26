@@ -686,3 +686,117 @@ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 
 
 }
+
+
+/* ======================= QUALIFICATIONS ================= */
+
+.qualification__content {
+    margin-bottom: var(--mb-1);
+    padding:auto;
+}
+
+.qualification__button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    position: relative;
+    transform: translateX(--mb-0-5);
+    margin-bottom: var(--mb-0-5);
+    margin-top: var(--mb-1);
+}
+
+.qualification__button:hover {
+    color: var(--first-color-alt);
+}
+
+.qualification__icon {
+    font-size: var(--h2-font-size);
+    margin-right: var (--mb-0-25);
+}
+
+.qualification__journey {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qualification__line {
+    display: block;
+    width: 1.5px;
+    height: 100%;
+    background-color: var(--firs-color-lighter);
+    align-items: flex-end;
+    transform: translateX(20px);
+    margin-right: 0;
+    padding: 0;
+}
+
+.qualification__calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.qualification__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.mirror-face {
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    font-size: 2rem;
+    height: initial;
+    overflow: hidden;
+    position: relative;
+    border-color: var(--first-color);
+}
+
+.task {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    perspective: 800px;
+    transform-style: preserve-3d;
+}
+
+.abstract {
+    transition: 0.8 ease all ;
+
+}
+
+.details {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transform: rotateX(-180deg);
+    transform-origin: top center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 0.8s transform ease;
+}
+
+.details:before {
+    content: '';
+    display: block;
+    position:absolute;
+    top: 0 ;
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background: black;
+}
+
+.task:hover .details {
+    max-height: none;
+    overflow: visible;
+    visibility: visible;
+    transform: rotateX(0deg);
+    transition: 0.8s transform ease;
+    
+}
