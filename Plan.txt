@@ -23,3 +23,10 @@ right -> text
 
 
 below image: -> EXPERIENCE 
+
+
+
+Skills 
+
+card ---> Software Skills ( Inside card)
+card  -> Design 
