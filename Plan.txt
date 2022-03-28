@@ -39,4 +39,10 @@ Education      Experience
 line - date
 card - Title 
          Institute 
-         Details - Unfolder
+         Details - Unfolded
+
+
+Portfolio
+
+
+<   >

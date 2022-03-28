@@ -19,6 +19,9 @@
     <!-- Argon CSS -->
   <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
 
+  <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
      <!-- Personal Styling -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -101,12 +104,12 @@
 
         <div class="home__content grid">
             <div class="home__social">
-                <a href="" target="_blank" class="home__social-icon" id="myLinkedIn">
+                <a href="https://www.linkedin.com/in/erick-alonso-moreno-13a131214/" target="_blank" class="home__social-icon" id="myLinkedIn">
                     <i class="uil uil-linkedin"></i>
                 </a>
 
 
-                <a href="" target="_blank" class="home__social-icon" id="myGithub">
+                <a href="https://github.com/erick3422" target="_blank" class="home__social-icon" id="myGithub">
                     <i class="uil uil-github"></i>
                 </a>
 
@@ -804,8 +807,85 @@
 
     <!-- --------------- PORTFOLIO ------------ -->
     <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle"> My most recent works </span>
 
-    </section>
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    
+                    <!-- For portfolio item 1 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/img/project 1.jpg" alt="Tic Tac Toe Game">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> November 2021</span>
+                            <div class="blog-slider__title"> Tic Tac Toe Game </div>
+                            <div class="blog-slider__text"> A Game project with different goals in mind, <br>the game purpose is let 2 player user play <br>a Tic Tac Toe game with nice and professional <br>Sign Up and Sign in page, style game board with unique different button functions when you<br> point to it with the mouse.</div>
+                            <a href="https://erick3422.github.io/Tic-Tac-Toe-client/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 2 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/img/project 2.jpg" alt="Travel Website">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> February 2022</span>
+                            <div class="blog-slider__title"> Travel Website  </div>
+                            <div class="blog-slider__text"> Friendlyplaces is a webpages based in different places to visit and to share with friends, user can check the different destination available through around the world. </div>
+                            <a href="https://jovial-noyce-8e8aa9.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 3 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/img/project 3.jpg" alt="Restaurant Website ">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> March 2022</span>
+                            <div class="blog-slider__title"> Restaurant Website </div>
+                            <div class="blog-slider__text"> Family is a restaurant website where user can order different popular kind of food around the world.</div>
+                            <a href="https://erick3422.github.io/family-frontend/menu" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 4 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/img/Coming-Soon.jpg" alt="Coming Soon">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> 2022</span>
+                            <div class="blog-slider__title"> Coming Soon </div>
+                            <div class="blog-slider__text"> Cool and design project in the way, ready to be release in this year.</div>
+                            <a href="#portfolio" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+
+        </section>
     
     <!-- ---------------- CONTACT US ---------- -->
      <section class="contact section" id="contact">
@@ -834,7 +914,11 @@
 
   <!-- Typewriter Effect -->
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    
+
 <!-- Self Script -->
 <script src="js/script.js"></script>
   </body>
