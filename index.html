@@ -927,7 +927,7 @@
                 <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
                     <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
 
-                    <form action="#" method="POST" class="cf">
+                    <form  name= "contact-form" action="mailto:erickloco882@yahoo.com" class="cf" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
                                 <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
@@ -942,7 +942,7 @@
                                 <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="button button--flex send-message form_button">
+                                <button  onclick="submitForm()" type="submit" class="button button--flex send-message form_button">
                                     Send Message
                                     <i class="uil uil-message button__icon"></i>
                                 </button>
@@ -1020,8 +1020,6 @@
   <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    
-    <!-- Email Function-->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 <!-- Self Script -->
 <script src="js/script.js"></script>

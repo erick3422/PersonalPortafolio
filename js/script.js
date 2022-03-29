@@ -144,3 +144,14 @@ function scrollActive() {
 
 }
 window.addEventListener('scroll', scrollActive)
+
+
+// ====================== Email Clear Form============= // 
+
+
+function submitForm() {
+	var frm = document.getElementsByName('contact-form')[0]
+	frm.submit() // Submit the form
+	frm.reset() // Reset all form data
+	return false // Prevent page refresh
+}
