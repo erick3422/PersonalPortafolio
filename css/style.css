@@ -1118,6 +1118,12 @@ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 .contact__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  color:#0d0925;
+}
+
+.contact__title-1 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
 }
 
 .contact__subtitle {
@@ -1387,7 +1393,6 @@ form textarea {
   }
 }
 
-
 /* Medium size Screen devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -1410,6 +1415,11 @@ form textarea {
     padding-right: var(--mb-1);
   }
 
+  /* .qualification__sections{
+        display: grid;
+        grid-template-columns: 0.85fr;
+        justify-content: center;
+      } */
 
   .portfolio {
     padding-bottom: var(--mb-0-25);
@@ -1422,7 +1432,6 @@ form textarea {
     transform: translateY(60%);
   }
 }
-
 
 /* Large size Screen devices */
 @media screen and (min-width: 768px) {
@@ -1473,11 +1482,6 @@ form textarea {
   .nav__menu {
     margin-left: auto;
   }
-
-  .lampchangetheme {
-      margin-left: var(--mb-2);
-  }
-
 
   .change-theme {
     margin: 0;
@@ -1584,3 +1588,4 @@ form textarea {
     min-width: 700px;
   }
 }
+
