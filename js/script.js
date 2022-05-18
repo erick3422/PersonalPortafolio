@@ -58,6 +58,24 @@ if (navClose) {
     })
 }
 
+// ==================== MENU DISAPPEAR AFTER SCROLL DOWN =========== //
+
+function navStop() {
+
+	const scrollup = document.getElementById('header')
+
+	if (this.scrollY >= 560) {
+		scrollup.classList.remove('header')
+	} else {
+		scrollup.classList.add('header')
+	}
+}
+
+window.addEventListener('scroll', navStop)
+
+
+
+
 // ===================== REMOVE MENU ==================== //
 
 const navLink = document.querySelectorAll('.nav__link')
