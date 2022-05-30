@@ -64,7 +64,7 @@ function navStop() {
 
 	const scrollup = document.getElementById('header')
 
-	if (this.scrollY >= 560) {
+	if (this.scrollY >= 150) {
 		scrollup.classList.remove('header')
 	} else {
 		scrollup.classList.add('header')
