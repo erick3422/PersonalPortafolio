@@ -9,12 +9,14 @@
     /* ===== COLORS ======== */
     /* DECIDE YOUR BROWSER THEME */
     --hue-color: 242;
+    --hue-color-2:0;
 
     /* HSL Color Mode */
     --first-color: hsl(var(--hue-color), 69%, 58%);
     --firs-color-second: hsl(var(--hue-color), 71%, 47%) ;
     --first-color-alt: hsl(var(--hue-color), 55%, 50% );
     --firs-color-lighter: hsl(var(--hue-color), 90%, 82%);
+    --button-color:hls(var(--hue-color-2),88%,25%);
 
 
     --title-color: hsl(var(--hue-color), 10%, 15%);
@@ -1004,6 +1006,13 @@ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   margin-bottom: 30px;
   line-height: 1.5em;
 }
+.blog-slider__text__2  {
+  color:#4e4a67;
+  margin-bottom: 32px;
+}
+.blog-slider__text__2 img {
+  width: 20px;
+}
 .blog-slider__button {
   display: inline-flex;
   background-image: linear-gradient(
@@ -1021,6 +1030,7 @@ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   text-align: center;
   letter-spacing: 1px;
 }
+
 
 .blog-slider__button:hover .button__icon {
   transform: translateX(0.25rem);
